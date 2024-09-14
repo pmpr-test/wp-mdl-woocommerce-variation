@@ -1,0 +1,32 @@
+{
+  "name": "pmpr-mdl/wp-mdl-woocommerce-variation",
+  "type": "project",
+  "license": "proprietary",
+  "description": "Woocommerce Variation",
+  "keywords": [
+    "package",
+    "wordpress",
+    "variation",
+    "woocommerce"
+  ],
+  "require": {
+    "php": ">=8.2",
+    "pmpr-cmn/wp-cmn-foundation": "~1.4"
+  },
+  "prod-require": {
+    "php": "8.2",
+    "wordpress": "6.0",
+    "wp-cmn-foundation": "latest"
+  },
+  "autoload": {
+    "psr-4": {
+      "Pmpr\\Module\\WoocommerceVariation\\": "src/Pmpr/Module/WoocommerceVariation"
+    },
+    "files": [
+      "index.php"
+    ]
+  },
+  "minimum-stability": "dev",
+  "tag": "1.1.16",
+  "timestamp": "1726343145"
+}
