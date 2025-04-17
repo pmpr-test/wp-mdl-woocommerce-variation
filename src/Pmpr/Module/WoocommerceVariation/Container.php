@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             677fc5281a416             |
+    |             6800fbee7ed8c             |
     |_______________________________________|
 */
  namespace Pmpr\Module\WoocommerceVariation; use Pmpr\Common\Foundation\Container\Container as BaseClass; abstract class Container extends BaseClass { }
